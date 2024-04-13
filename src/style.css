@@ -1,0 +1,330 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #f1f1f1;
+    color: #333;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+div, nav, ul, li, a, h1, h2, h3, h4, h5, h6, p, img, span, input, button{
+    display: block;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+
+    a:hover{
+        color: #666;
+    }
+}
+
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1{
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+li a{
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+
+    a:hover{
+        background-color: #333;
+        color: #fff;
+    }
+}
+
+section{
+    padding: 20px 0;
+}
+
+section h2{
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+section ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section ul li{
+    width: calc(33.333% - 20px);
+    margin: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+section ul li img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+section ul li h3{
+    font-size: 20px;
+    line-height: 28px;
+    margin: 20px 0;
+}
+
+section ul li p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+section p{
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.view-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.sidebar{
+    width: 25%;
+    margin-right: 20px;
+}
+
+.sidebar h3{
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.content {
+    width: 75%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    width: 100%;
+}
+
+.col-1{
+    width: calc(8.333% - 20px);
+}
+
+.col-2{
+    width: calc(16.666% - 20px);
+}
+
+.col-3{
+    width: calc(25% - 20px);
+}
+
+.col-4{
+    width: calc(33.333% - 20px);
+}
+
+.col-5{
+    width: calc(41.666% - 20px);
+}
+
+.col-6{
+    width: calc(50% - 20px);
+}
+
+.col-7{
+    width: calc(58.333% - 20px);
+}
+
+.col-8{
+    width: calc(66.666% - 20px);
+}
+
+
+.col-9{
+    width: calc(75% - 20px);
+}
+
+.col-10{
+    width: calc(83.333% - 20px);
+}
+
+
+.col-11{
+    width: calc(91.666% - 20px);
+}
+
+
+.col-12{
+    width: calc(100% - 20px);
+}
+
+
+
+.space{
+    margin-bottom: 20px;
+}
+
+.space-top{
+    margin-top: 20px;
+
+    &.x2{
+        margin-top: 40px;
+    }
+
+    &.x3{
+        margin-top: 60px;
+    }
+
+    &.x4{
+        margin-top: 80px;
+    }
+    
+    &.x5{
+        margin-top: 100px;
+    }
+}
+
+.space-bottom{
+    margin-bottom: 20px;
+
+    &.x2{
+        margin-bottom: 40px;
+    }
+
+
+    &.x3{
+        margin-bottom: 60px;
+    }
+
+    &.x4{
+        margin-bottom: 80px;
+    }
+
+    &.x5{
+        margin-bottom: 100px;
+    }
+
+
+
+}
+
+.space-left{
+    margin-left: 20px;
+
+    &.x2{
+        margin-left: 40px;
+    }
+
+    &.x3{
+        margin-left: 60px;
+    }
+
+    &.x4{
+        margin-left: 80px;
+    }
+
+    &.x5{
+        margin-left: 100px;
+    }
+}
+
+.space-right{
+    margin-right: 20px;
+
+    &.x2{
+        margin-right: 40px;
+    }
+
+    &.x3{
+        margin-right: 60px;
+    }
+
+    &.x4{
+        margin-right: 80px;
+    }
+
+    &.x5{
+        margin-right: 100px;
+    }
+}
+
+.space-around{
+    margin: 20px;
+
+    &.x2{
+        margin: 40px;
+    }
+
+    &.x3{
+        margin: 60px;
+    }
+
+    &.x4{
+        margin: 80px;
+    }
+
+    &.x5{
+        margin: 100px;
+    }
+
+}
+
+.divider{
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.text-center{
+    text-align: center;
+}
